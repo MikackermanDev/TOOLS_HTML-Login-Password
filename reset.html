@@ -9,21 +9,27 @@
 
 
   <style>
+    footer {
+      text-align: center;
+    }
+
     .container {
-      width: 600px;
+      width: 80dvw;
       margin: 0 auto;
       font-family: Arial, sans-serif;
     }
 
     .logo {
+      background-color: ;
       text-align: center;
-      margin-bottom: 1.2rem;
-      font-size: 1rem;
+      margin-bottom: 1rem;
+      font-size: clamp(2rem, 3vw, 4rem);
     }
 
     .content {
       background-color: ;
       padding: 1.2rem;
+      color: ;
     }
 
     .button {
@@ -32,9 +38,7 @@
       height: 80px;
       margin: 0 auto;
       background-color: ;
-      /* couleur par défaut */
-      color: white;
-      /* couleur du texte */
+      color: ;
       text-align: center;
       line-height: 40px;
       text-decoration: none;
@@ -43,12 +47,11 @@
     @media (prefers-color-scheme: dark) {
       .content {
         background-color: ;
-        ;
+        color: ;
       }
 
       .button {
         background-color: ;
-        /* couleur en mode sombre */
       }
 
     }
@@ -64,22 +67,21 @@
     <div class="content">
       <p>Bonjour,</p>
       <p>Vous avez demandé à réinitialiser votre mot de passe.</p>
-      <p>Pour créer un nouveau mot de passe, cliquez sur le bouton ci-dessous :</p>
+      <p>Voici le lien (valable 1heure) pour créer un nouveau mot de passe et accéder à votre compte :</p>
       <a href="https://example.com/reset-password" class="button">Réinitialiser mon mot de passe</a>
-      <p>Sinon, copier coller ci-dessous pour créer un nouveau mot de passe :</p>
+      <p>Si le bouton ci-dessus ne fonctionne pas, coller cet élement dans votre navigateur : </p>
 
       <p><a href="https://example.com/reset-password" class="link">Créer un nouveau mot de passe</a></p>
 
-      <p>Ce lien expirera dans 24 heures.</p>
       <p>Si vous n'avez pas demandé à réinitialiser votre mot de passe, ignorez cet email.</p>
 
       <p>Cordialement,</p>
 
-      <p>L'équipe de Example
+      <p>L'équipe de ConfigoComparateur
 
     </div>
     <footer>
-      <small>@2023 PcConfigo, all right reserved
+      <small>@2023 ConfigoComparateur, all right reserved
       </small>
     </footer>
   </div>
